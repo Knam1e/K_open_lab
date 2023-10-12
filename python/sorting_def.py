@@ -83,8 +83,6 @@ random.shuffle(list_1)
 
 list_copy = list_1.copy()
 
-
-
 start_time = time.time()
 list_copy = list_1.copy()
 mergeSort(list_copy)
@@ -111,4 +109,4 @@ list_copy = list_1.copy()
 start_time = time.time()
 list_copy.sort() 
 end_time = time.time()
-print(f"Sort 함수 정렬 시간: {end_time - start_time} 초")
+print(f"파이썬 Sort 함수 정렬 시간: {end_time - start_time} 초")
